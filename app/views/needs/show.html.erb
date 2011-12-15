@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Username:</b>
+  <%= @need.username %>
+</p>
+
+<p>
+  <b>Need:</b>
+  <%= @need.need %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @need.time %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @need.location %>
+</p>
+
+<p>
+  <b>Provider:</b>
+  <%= @need.provider %>
+</p>
+
+
+<%= link_to 'Edit', edit_need_path(@need) %> |
+<%= link_to 'Back', needs_path %>
